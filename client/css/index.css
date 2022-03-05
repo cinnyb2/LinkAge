@@ -1,4 +1,16 @@
-.navbar {
-    display: flex;
-    justify-content: center;
+body {
+    height: 100vh;
+}
+
+#content {
+    height: 100%;
+}
+
+#buttons {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+button {
+    margin: 10%;
 }
