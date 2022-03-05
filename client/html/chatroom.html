@@ -29,11 +29,29 @@
 
         <!-- Link to the api keys for your Firebase project -->
         <script src="../../scripts/firebaseAPI.js"></script>
+        <script src="../../scripts/chatroom.js"></script>
     </head>
 
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-info text-light">
             <a class="navbar-brand mx-auto" href="#">Senior Outreach</a>
         </nav>
+
+        <header>
+            <h1>Chatroom Number</h1>
+        </header>
+        <div id="chat">
+            <ul id="messages"></ul>
+
+            <form id="message-form" onsubmit="sendMessage()">
+                <input
+                    id="message-input"
+                    type="text"
+                    placeholder="Your message"
+                />
+                <button id="message-btn" type="submit">Send</button>
+            </form>
+        </div>
+        <button id="quit-btn" onclick="quit()">Quit?</button>
     </body>
 </html>
