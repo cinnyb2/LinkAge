@@ -1,7 +1,4 @@
-.navbar-brand {
-    justify-content: center;
-}
-
 .navbar {
-    
+    display: flex;
+    justify-content: center;
 }
