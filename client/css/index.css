@@ -28,3 +28,22 @@ button {
     padding-left: 10%;
     text-align: center;
 }
+
+#signin-btn {
+    background-color: #73B76E; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+#chatroom-number, #chatroom-username {
+    padding: 10px 36px;
+    font-size: 16px;
+    border-radius: 15px;
+
+}
