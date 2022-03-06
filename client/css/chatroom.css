@@ -1,0 +1,44 @@
+#chat {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+}
+
+#message-form {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 1rem;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+#quit-btn {
+    height: fit-content;
+}
+
+.receive {
+    background-color: silver;
+}
+
+.sent {
+    margin-right: 5%;
+    margin-left: auto;
+    background-color: rgb(0, 199, 43);
+}
