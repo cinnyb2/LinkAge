@@ -1,10 +1,12 @@
 let username = "Anonymous";
+let roomNo = "Main";
 
-if (localStorage.getItem("username") != null) {
+if (
+    localStorage.getItem("username") != null &&
+    localStorage.getItem("roomNo") != null
+) {
     username = localStorage.getItem("username");
-    if (username == "") {
-        username = "Anonymous";
-    }
+    roomNo = localStorage.getItem("roomNo");
 }
 
 function sendMessage() {
@@ -24,13 +26,13 @@ function sendMessage() {
     });
 
     // create db collection and send in the data
-    rtdb.ref("messages/" + timestamp).set({
+    rtdb.ref(roomNo + "/" + timestamp).set({
         username: username,
         message: message,
     });
 }
 
-const fetchChat = rtdb.ref("messages/");
+const fetchChat = rtdb.ref(roomNo + "/");
 
 fetchChat.on("child_added", function (snapshot) {
     const messages = snapshot.val();
