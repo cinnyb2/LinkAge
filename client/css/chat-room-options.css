@@ -4,24 +4,32 @@ body {
 
 #content {
     height: 70%;
-    display: grid;
     align-items: center;
+    padding: 10%;
+    padding-top: 2%;
+    font-size: 1.5rem;
 }
 
 #buttons {
-    display: grid;
     grid-template-rows: auto;
     width: 60%;
+}
+
+input {
+    height: 8vh;
 }
 
 button {
     margin: 10%;
     height: 80%;
+    margin-left: 10%;
 }
 
 #elderlyh1 {
     padding-left: 10%;
     text-align: center;
+    margin: 2%;
+    margin-bottom: 0;
 }
 
 #chat-signin {
@@ -30,7 +38,7 @@ button {
 }
 
 #signin-btn {
-    background-color: #73B76E;
+    background-color: #73b76e;
     border: none;
     color: white;
     padding: 12px 32px;
@@ -41,11 +49,11 @@ button {
     border-radius: 15px;
 }
 
-#chatroom-number, #chatroom-username {
+#chatroom-number,
+#chatroom-username {
     padding: 10px 36px;
     font-size: 16px;
     border-radius: 15px;
-
 }
 
 button h1 {
@@ -57,19 +65,13 @@ a {
     color: white;
 }
 
-a:hover { color:white; }
+a:hover {
+    color: white;
+}
 
 header {
     padding-left: 10%;
     padding-right: 10%;
-}
-
-#elderlyh1 {
-    margin: 5%;
-}
-
-button {
-    margin-left: 10%;
 }
 
 img {
