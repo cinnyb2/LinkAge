@@ -11,7 +11,7 @@ body {
 #buttons {
     display: grid;
     grid-template-rows: auto;
-    width: 50%;
+    width: 60%;
 }
 
 button {
