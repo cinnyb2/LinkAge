@@ -30,19 +30,34 @@
             <a class="navbar-brand mx-auto" href="#">Senior Outreach</a>
         </nav>
 
+        <h1 id="sign-up">Sign up</h1>   
+
         <section id="content">
-          <div class="form">
-            <label for="exampleFormControlTextarea1" class="form-label">Were you referred by an Organization? Please enter it below:</label><br>
-            <input type="text" id="organization" name="organization"><br><br>
-            <label for="exampleFormControlTextarea1" class="form-label">Please enter your vetting passcode:</label><br>
-            <input type="password" id="vetpass" name="organization">
-            <br><br>
-            ------Screening Questions Below------<br><br>
+            <form>
+                <div class="form-group">
+                  <label for="organization">Were you referred by an Organization? Please enter it below:</label>
+                  <input type="text" class="form-control" id="organization">
+                </div>
+                <br>
+                <div class="form-group">
+                  <label for="password">Please enter your vetting passcode:</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+            <br>
 
-            <br><br><button id="submitvolunteer" type="formbutton">Submit</button>
-          </div>
-        </section>
-
+            <div class="form-group">
+                <label for="response">Have you ever worked with elderly? If yes, how many years?</label>
+                <input type="number" class="form-control" id="worked-with-elderly">
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="response">What made you interested in joining our application?</label>
+                <input type="text" class="form-control" id="interest">
+              </div>
+              <br>
+                <button id="submitvolunteer" type="Enter" class="btn btn-success">Submit</button>
+              </form>
+            </section>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
