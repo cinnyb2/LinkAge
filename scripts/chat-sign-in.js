@@ -6,8 +6,8 @@ if (
 }
 
 function register() {
-    var roomNo = document.getElementById("chatroom-number").value;
-    var username = document.getElementById("chatroom-username").value;
+    var roomNo = document.getElementById("chatroom_number").value;
+    var username = document.getElementById("name").value;
     if (roomNo == "" || username == "") {
         console.log("Invalid.");
     } else {
