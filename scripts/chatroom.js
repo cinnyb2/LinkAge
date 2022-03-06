@@ -46,5 +46,5 @@ fetchChat.on("child_added", function (snapshot) {
 function quit() {
     localStorage.removeItem("roomNo");
     localStorage.removeItem("username");
-    window.location.href = "./index.html";
+    window.location.href = "./how-was-your-chat.html";
 }

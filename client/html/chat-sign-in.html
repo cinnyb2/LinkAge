@@ -34,53 +34,38 @@
 
     <body>
         <nav>
-            <a class="navbar-brand mx-auto" href="#"><img src="../images/Logo_Transparent.png" alt=""></a>
+            <a class="navbar-brand mx-auto" href="#"
+                ><img src="../images/Logo_Transparent.png" alt=""
+            /></a>
         </nav>
 
         <header>
             <h1 id="elderlyh1">Enter your chatroom</h1>
-            <section id="content">
-                <form onsubmit="register()">
-                    <div class="form-group">
-                        <label for="chatroomnumber">Chatroom number:</label>
-                        <input
-                            type="number"
-                            class="form-control"
-                            id="chatroom_number"
-                            placeholder="Please enter your chatroom number"
-                        />
-                    </div>
-                    <br />
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input
-                            type="name"
-                            class="form-control"
-                            id="name"
-                            placeholder="Please enter your preferred name"
-                        />
-                    </div>
-                    <br />
-                    <button type="submit" class="btn btn-success">ENTER</button>
-                </form>
-            </section>
         </header>
-        <!-- <div id="chat">
-            <ul id="messages"></ul>
-
-            <form id="chat-signin" onsubmit="register()">
-                <input
-                    id="chatroom-number"
-                    type="text"
-                    placeholder="Please enter the chatroom number"
-                />
-                <input
-                    id="chatroom-username"
-                    type="text"
-                    placeholder="Please enter your username"
-                />
-                <button id="signin-btn" type="submit">Enter</button>
+        <section id="content">
+            <form onsubmit="register()">
+                <div class="form-group">
+                    <label for="chatroomnumber">Chatroom number:</label>
+                    <input
+                        type="number"
+                        class="form-control"
+                        id="chatroom_number"
+                        placeholder="Please enter your chatroom number"
+                    />
+                </div>
+                <br />
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input
+                        type="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Please enter your preferred name"
+                    />
+                </div>
+                <br />
+                <button type="submit" class="btn btn-success">ENTER</button>
             </form>
-        </div> -->
+        </section>
     </body>
 </html>
