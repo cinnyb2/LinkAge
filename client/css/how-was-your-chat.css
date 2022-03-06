@@ -21,8 +21,22 @@ button {
 
 #smiley {
     color: green;
+    font-size: 150px;
 }
 
 #frowny {
     color: red;
+    font-size: 150px;
+}
+
+#smiley_text {
+    text-align: center;
+    font-size: 36px;
+    color: #5cb85c;
+}
+
+#frowny_text {
+    text-align: center;
+    font-size: 36px;
+    color: #d9534f;
 }
