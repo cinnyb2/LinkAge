@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+}
+
+#content {
+    height: 70%;
+    display: grid;
+    align-items: center;
+}
