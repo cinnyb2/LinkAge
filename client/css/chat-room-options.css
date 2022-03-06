@@ -60,8 +60,14 @@ a {
 a:hover { color:white; }
 
 header {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
+#elderlyh1 {
+    margin: 5%;
+}
 
+button {
+    margin-left: 10%;
+}

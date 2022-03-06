@@ -4,12 +4,17 @@ body{
 }
 
 #content {
-    display: grid;
-    grid-template-columns: 10vw 40vw 40vw 10vw;
-    grid-template-rows: 5vh 15vh 15vh 15vh 30vh 15vh;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.form {
+/* #content {
+    /* display: grid;
+    grid-template-columns: 10vw 40vw 40vw 10vw;
+    grid-template-rows: 5vh 15vh 15vh 15vh 30vh 15vh;
+} */ 
+
+/* .form {
     grid-column: 2 / span 2;
     grid-row: 2;
 }
@@ -18,4 +23,9 @@ body{
     background-color: #e7e7e7; color: black;
     font-size: 16px;
     border-radius: 12px;
+} */
+
+#sign-up {
+    text-align: center;
+    margin: 5%;
 }
