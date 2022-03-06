@@ -13,6 +13,13 @@ button {
     margin-bottom: 5%;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover { color:white; }
+
 p {
     font-size: 25px;
     padding-left: 5%;
