@@ -51,3 +51,10 @@ button {
 button h1 {
     font-size: 28px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover { color:white; }
