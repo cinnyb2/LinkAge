@@ -16,7 +16,7 @@ body {
 
 button {
     margin: 10%;
-    height: 50%;
+    height: 80%;
 }
 
 #elderlyh1 {
@@ -30,7 +30,7 @@ button {
 }
 
 #signin-btn {
-    background-color: #73B76E; /* Green */
+    background-color: #73B76E;
     border: none;
     color: white;
     padding: 12px 32px;
@@ -46,4 +46,8 @@ button {
     font-size: 16px;
     border-radius: 15px;
 
+}
+
+button h1 {
+    font-size: 28px;
 }
