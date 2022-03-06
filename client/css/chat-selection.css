@@ -11,9 +11,10 @@ body {
 #buttons {
     display: grid;
     grid-template-rows: auto;
+    width: 50%;
 }
 
 button {
     margin: 10%;
-    height: 50%;
+    height: 80%;
 }
