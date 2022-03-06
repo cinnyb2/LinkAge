@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Senior Chat App</title>
+        <title>Volunteer Waiting Room</title>
         <meta name="author" content="Hackathon cmd-f 2022" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -18,7 +18,8 @@
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="../css/volunteerflow.css" />
+        <link rel="stylesheet" href="../css/volunteer-login.css" />
+
         <!-- Firebase 8 related JS CDN -->
         <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
@@ -28,6 +29,7 @@
 
         <!-- Link to the api keys for your Firebase project -->
         <script src="../../scripts/firebaseAPI.js"></script>
+        <script src="../../scripts/volunteer-waiting-room.js"></script>
         <script
             src="https://kit.fontawesome.com/ed96789d1b.js"
             crossorigin="anonymous"
@@ -41,54 +43,29 @@
             /></a>
         </nav>
 
-        <h1 id="sign-up">Sign up</h1>
-
         <section id="content">
-            <form>
-                <div class="form-group">
-                    <label for="organization"
-                        >Were you referred by an Organization? Please enter it
-                        below:</label
-                    >
-                    <input type="text" class="form-control" id="organization" />
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="password"
-                        >Please enter your vetting passcode:</label
-                    >
-                    <input type="password" class="form-control" id="password" />
-                </div>
-                <br />
-
-                <div class="form-group">
-                    <label for="response"
-                        >Have you ever worked with elderly? If yes, how many
-                        years?</label
-                    >
-                    <input
-                        type="number"
-                        class="form-control"
-                        id="worked-with-elderly"
-                    />
-                </div>
-                <br />
-                <div class="form-group">
-                    <label for="response"
-                        >What made you interested in joining our
-                        application?</label
-                    >
-                    <input type="text" class="form-control" id="interest" />
-                </div>
-                <br />
+            <h1 id="page-title">Are you ready?</h1>
+            <div id="buttons">
                 <button
-                    id="submitvolunteer"
-                    type="Enter"
+                    id="yes"
                     class="btn btn-success"
+                    style="font-size: 2rem"
+                    onclick="getRoom()"
                 >
-                    Submit
+                    Yes
                 </button>
-            </form>
+                <button
+                    id="no"
+                    class="btn btn-secondary text-white"
+                    style="font-size: 2rem"
+                >
+                    No
+                </button>
+            </div>
+            <p>
+                In a session, please practice our code of conduct.<br />We
+                appreciate it.
+            </p>
         </section>
 
         <script
@@ -96,11 +73,5 @@
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"
         ></script>
-        <script type="text/javascript">
-            document.getElementById("submitvolunteer").onclick = function () {
-                window.location.href = "../html/volunteer-waiting-room.html";
-                alert("Thank you! We will be in touch.");
-            };
-        </script>
     </body>
 </html>

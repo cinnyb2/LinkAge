@@ -1,9 +1,26 @@
 body {
     height: 100vh;
+    font-size: 1.5rem;
 }
 
 #content {
     height: 70%;
-    display: grid;
-    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+img {
+    width: 40%;
+    margin-left: 29%;
+}
+
+button {
+    height: 10vh;
+    width: 30%;
+    font-size: 3rem;
+}
+
+#buttons {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
