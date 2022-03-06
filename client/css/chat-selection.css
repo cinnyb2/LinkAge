@@ -3,7 +3,7 @@ body {
 }
 
 #content {
-    height: 80%;
+    height: 70%;
     display: grid;
     align-items: center;
 }
@@ -17,4 +17,9 @@ body {
 button {
     margin: 10%;
     height: 80%;
+}
+
+img {
+    width: 40%;
+    margin-left: 29%;
 }
