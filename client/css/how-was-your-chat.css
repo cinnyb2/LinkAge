@@ -1,0 +1,28 @@
+#section {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+#page-title {
+    text-align: center;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+#smiley {
+    color: green;
+}
+
+#frowny {
+    color: red;
+}
