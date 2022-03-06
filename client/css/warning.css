@@ -6,7 +6,7 @@ button {
     padding-top: 10%;
 }
 
-#warning-button {
+#warning-button, #ok-button {
     padding: 2%;
     width: 30%;
     margin-top: 5%;
