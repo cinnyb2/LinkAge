@@ -7,9 +7,9 @@
 
 cmd-f 2022
 
-Winner of Hootsuite challenge
-Winner of the Best use of Twilio
-1st Place for Telus Leverage technology to support social sustainability and community building
+- Winner of Hootsuite challenge
+- Winner of the Best use of Twilio
+- 1st Place for Telus Leverage technology to support social sustainability and community building
 
 ## Technologies
 
